@@ -1,0 +1,61 @@
+#tbl1{
+	font-family:"Trebuchet MS", 
+	Arial, Helvetica, sans-serif;
+	
+	width:100%; margin-top:0px;
+	padding:0px;border-spacing: 0px;
+	position:relative;
+}
+
+#tbl1 td, #tbl1 th {
+	border: 1px solid #ddd;
+	padding:6px;
+}
+
+#tbl1 tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+
+#tbl1 tr:hover{
+	background-color:#ddd;
+}
+
+#tbl1 th{
+	padding-top:6px;
+	padding-bottom:6px;
+	text-align:left;
+	background-color:#80aaff;
+	color: white;	
+}
+
+#tbl1 th{cursor: grab;}
+
+#tbl1 tbody tr {
+    border-bottom: 1px solid #95b3d7;
+  }
+
+
+thead, tbody { display: block; }
+
+tbody {
+    height: 370px;       /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: auto;  /* Hide the horizontal scroll */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
